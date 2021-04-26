@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1827B26B262BF74400F64D48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B26A262BF74400F64D48 /* AppDelegate.swift */; };
+		1827B274262BF74800F64D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1827B273262BF74800F64D48 /* Assets.xcassets */; };
+		1827B277262BF74800F64D48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1827B275262BF74800F64D48 /* LaunchScreen.storyboard */; };
+		1827B282262BF74800F64D48 /* MyHotelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B281262BF74800F64D48 /* MyHotelsTests.swift */; };
+		1827B28D262BF74800F64D48 /* MyHotelsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B28C262BF74800F64D48 /* MyHotelsUITests.swift */; };
+		1827B2A8262BF82F00F64D48 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B2A5262BF82F00F64D48 /* Constants.swift */; };
+		1827B2A9262BF82F00F64D48 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B2A6262BF82F00F64D48 /* UIViewController+Extension.swift */; };
+		1827B2AA262BF82F00F64D48 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B2A7262BF82F00F64D48 /* Utility.swift */; };
+		1827B2B4262BF85700F64D48 /* KeyboardAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B2AF262BF85700F64D48 /* KeyboardAccessoryView.swift */; };
+		1827B2B5262BF85700F64D48 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B2B0262BF85700F64D48 /* CollectionViewCell.swift */; };
+		1827B2B6262BF85700F64D48 /* HotelEntryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B2B1262BF85700F64D48 /* HotelEntryCell.swift */; };
+		1827B2B7262BF85700F64D48 /* PhotosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B2B2262BF85700F64D48 /* PhotosCell.swift */; };
+		1827B2B8262BF85700F64D48 /* HotelInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B2B3262BF85700F64D48 /* HotelInfoCell.swift */; };
+		1827B2BE262BF86500F64D48 /* HotelsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B2BC262BF86500F64D48 /* HotelsListViewController.swift */; };
+		1827B2BF262BF86500F64D48 /* UpdateHotelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B2BD262BF86500F64D48 /* UpdateHotelViewController.swift */; };
+		1827B2C5262BF87C00F64D48 /* HotelEntryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B2C3262BF87B00F64D48 /* HotelEntryModel.swift */; };
+		1827B2C6262BF87C00F64D48 /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B2C4262BF87C00F64D48 /* Hotel.swift */; };
+		1827B2CC262BF88500F64D48 /* HotelsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B2CA262BF88500F64D48 /* HotelsViewModel.swift */; };
+		1827B2CD262BF88500F64D48 /* UpdateHotelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B2CB262BF88500F64D48 /* UpdateHotelViewModel.swift */; };
+		1827B2D5262BF8A900F64D48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1827B2D4262BF8A800F64D48 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1827B27E262BF74800F64D48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1827B25F262BF74400F64D48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1827B266262BF74400F64D48;
+			remoteInfo = MyHotels;
+		};
+		1827B289262BF74800F64D48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1827B25F262BF74400F64D48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1827B266262BF74400F64D48;
+			remoteInfo = MyHotels;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1827B267262BF74400F64D48 /* MyHotels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHotels.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1827B26A262BF74400F64D48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1827B273262BF74800F64D48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1827B276262BF74800F64D48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1827B278262BF74800F64D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1827B27D262BF74800F64D48 /* MyHotelsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHotelsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1827B281262BF74800F64D48 /* MyHotelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHotelsTests.swift; sourceTree = "<group>"; };
+		1827B283262BF74800F64D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1827B288262BF74800F64D48 /* MyHotelsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHotelsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1827B28C262BF74800F64D48 /* MyHotelsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHotelsUITests.swift; sourceTree = "<group>"; };
+		1827B28E262BF74800F64D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1827B2A5262BF82F00F64D48 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1827B2A6262BF82F00F64D48 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		1827B2A7262BF82F00F64D48 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		1827B2AF262BF85700F64D48 /* KeyboardAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardAccessoryView.swift; sourceTree = "<group>"; };
+		1827B2B0262BF85700F64D48 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		1827B2B1262BF85700F64D48 /* HotelEntryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelEntryCell.swift; sourceTree = "<group>"; };
+		1827B2B2262BF85700F64D48 /* PhotosCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosCell.swift; sourceTree = "<group>"; };
+		1827B2B3262BF85700F64D48 /* HotelInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelInfoCell.swift; sourceTree = "<group>"; };
+		1827B2BC262BF86500F64D48 /* HotelsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelsListViewController.swift; sourceTree = "<group>"; };
+		1827B2BD262BF86500F64D48 /* UpdateHotelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateHotelViewController.swift; sourceTree = "<group>"; };
+		1827B2C3262BF87B00F64D48 /* HotelEntryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelEntryModel.swift; sourceTree = "<group>"; };
+		1827B2C4262BF87C00F64D48 /* Hotel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
+		1827B2CA262BF88500F64D48 /* HotelsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelsViewModel.swift; sourceTree = "<group>"; };
+		1827B2CB262BF88500F64D48 /* UpdateHotelViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateHotelViewModel.swift; sourceTree = "<group>"; };
+		1827B2D4262BF8A800F64D48 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1827B264262BF74400F64D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1827B27A262BF74800F64D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1827B285262BF74800F64D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1827B25E262BF74400F64D48 = {
+			isa = PBXGroup;
+			children = (
+				1827B269262BF74400F64D48 /* MyHotels */,
+				1827B280262BF74800F64D48 /* MyHotelsTests */,
+				1827B28B262BF74800F64D48 /* MyHotelsUITests */,
+				1827B268262BF74400F64D48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1827B268262BF74400F64D48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1827B267262BF74400F64D48 /* MyHotels.app */,
+				1827B27D262BF74800F64D48 /* MyHotelsTests.xctest */,
+				1827B288262BF74800F64D48 /* MyHotelsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1827B269262BF74400F64D48 /* MyHotels */ = {
+			isa = PBXGroup;
+			children = (
+				1827B2A4262BF82F00F64D48 /* Utility */,
+				1827B2A3262BF82000F64D48 /* ViewModel */,
+				1827B2A2262BF81A00F64D48 /* Model */,
+				1827B2A0262BF80700F64D48 /* ViewController */,
+				1827B26A262BF74400F64D48 /* AppDelegate.swift */,
+				1827B2D4262BF8A800F64D48 /* Main.storyboard */,
+				1827B273262BF74800F64D48 /* Assets.xcassets */,
+				1827B275262BF74800F64D48 /* LaunchScreen.storyboard */,
+				1827B278262BF74800F64D48 /* Info.plist */,
+			);
+			path = MyHotels;
+			sourceTree = "<group>";
+		};
+		1827B280262BF74800F64D48 /* MyHotelsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1827B281262BF74800F64D48 /* MyHotelsTests.swift */,
+				1827B283262BF74800F64D48 /* Info.plist */,
+			);
+			path = MyHotelsTests;
+			sourceTree = "<group>";
+		};
+		1827B28B262BF74800F64D48 /* MyHotelsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1827B28C262BF74800F64D48 /* MyHotelsUITests.swift */,
+				1827B28E262BF74800F64D48 /* Info.plist */,
+			);
+			path = MyHotelsUITests;
+			sourceTree = "<group>";
+		};
+		1827B2A0262BF80700F64D48 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1827B2BC262BF86500F64D48 /* HotelsListViewController.swift */,
+				1827B2BD262BF86500F64D48 /* UpdateHotelViewController.swift */,
+				1827B2AE262BF85700F64D48 /* View */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1827B2A2262BF81A00F64D48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1827B2C4262BF87C00F64D48 /* Hotel.swift */,
+				1827B2C3262BF87B00F64D48 /* HotelEntryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1827B2A3262BF82000F64D48 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1827B2CA262BF88500F64D48 /* HotelsViewModel.swift */,
+				1827B2CB262BF88500F64D48 /* UpdateHotelViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1827B2A4262BF82F00F64D48 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				1827B2A5262BF82F00F64D48 /* Constants.swift */,
+				1827B2A6262BF82F00F64D48 /* UIViewController+Extension.swift */,
+				1827B2A7262BF82F00F64D48 /* Utility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		1827B2AE262BF85700F64D48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1827B2AF262BF85700F64D48 /* KeyboardAccessoryView.swift */,
+				1827B2B0262BF85700F64D48 /* CollectionViewCell.swift */,
+				1827B2B1262BF85700F64D48 /* HotelEntryCell.swift */,
+				1827B2B2262BF85700F64D48 /* PhotosCell.swift */,
+				1827B2B3262BF85700F64D48 /* HotelInfoCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1827B266262BF74400F64D48 /* MyHotels */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1827B291262BF74800F64D48 /* Build configuration list for PBXNativeTarget "MyHotels" */;
+			buildPhases = (
+				1827B263262BF74400F64D48 /* Sources */,
+				1827B264262BF74400F64D48 /* Frameworks */,
+				1827B265262BF74400F64D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyHotels;
+			productName = MyHotels;
+			productReference = 1827B267262BF74400F64D48 /* MyHotels.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1827B27C262BF74800F64D48 /* MyHotelsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1827B294262BF74800F64D48 /* Build configuration list for PBXNativeTarget "MyHotelsTests" */;
+			buildPhases = (
+				1827B279262BF74800F64D48 /* Sources */,
+				1827B27A262BF74800F64D48 /* Frameworks */,
+				1827B27B262BF74800F64D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1827B27F262BF74800F64D48 /* PBXTargetDependency */,
+			);
+			name = MyHotelsTests;
+			productName = MyHotelsTests;
+			productReference = 1827B27D262BF74800F64D48 /* MyHotelsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1827B287262BF74800F64D48 /* MyHotelsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1827B297262BF74800F64D48 /* Build configuration list for PBXNativeTarget "MyHotelsUITests" */;
+			buildPhases = (
+				1827B284262BF74800F64D48 /* Sources */,
+				1827B285262BF74800F64D48 /* Frameworks */,
+				1827B286262BF74800F64D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1827B28A262BF74800F64D48 /* PBXTargetDependency */,
+			);
+			name = MyHotelsUITests;
+			productName = MyHotelsUITests;
+			productReference = 1827B288262BF74800F64D48 /* MyHotelsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1827B25F262BF74400F64D48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					1827B266262BF74400F64D48 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					1827B27C262BF74800F64D48 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1827B266262BF74400F64D48;
+					};
+					1827B287262BF74800F64D48 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1827B266262BF74400F64D48;
+					};
+				};
+			};
+			buildConfigurationList = 1827B262262BF74400F64D48 /* Build configuration list for PBXProject "MyHotels" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1827B25E262BF74400F64D48;
+			productRefGroup = 1827B268262BF74400F64D48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1827B266262BF74400F64D48 /* MyHotels */,
+				1827B27C262BF74800F64D48 /* MyHotelsTests */,
+				1827B287262BF74800F64D48 /* MyHotelsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1827B265262BF74400F64D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1827B2D5262BF8A900F64D48 /* Main.storyboard in Resources */,
+				1827B277262BF74800F64D48 /* LaunchScreen.storyboard in Resources */,
+				1827B274262BF74800F64D48 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1827B27B262BF74800F64D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1827B286262BF74800F64D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1827B263262BF74400F64D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1827B2B8262BF85700F64D48 /* HotelInfoCell.swift in Sources */,
+				1827B2CC262BF88500F64D48 /* HotelsViewModel.swift in Sources */,
+				1827B2B7262BF85700F64D48 /* PhotosCell.swift in Sources */,
+				1827B2BF262BF86500F64D48 /* UpdateHotelViewController.swift in Sources */,
+				1827B2B6262BF85700F64D48 /* HotelEntryCell.swift in Sources */,
+				1827B2AA262BF82F00F64D48 /* Utility.swift in Sources */,
+				1827B2A9262BF82F00F64D48 /* UIViewController+Extension.swift in Sources */,
+				1827B2BE262BF86500F64D48 /* HotelsListViewController.swift in Sources */,
+				1827B2CD262BF88500F64D48 /* UpdateHotelViewModel.swift in Sources */,
+				1827B2C5262BF87C00F64D48 /* HotelEntryModel.swift in Sources */,
+				1827B2B5262BF85700F64D48 /* CollectionViewCell.swift in Sources */,
+				1827B26B262BF74400F64D48 /* AppDelegate.swift in Sources */,
+				1827B2B4262BF85700F64D48 /* KeyboardAccessoryView.swift in Sources */,
+				1827B2A8262BF82F00F64D48 /* Constants.swift in Sources */,
+				1827B2C6262BF87C00F64D48 /* Hotel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1827B279262BF74800F64D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1827B282262BF74800F64D48 /* MyHotelsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1827B284262BF74800F64D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1827B28D262BF74800F64D48 /* MyHotelsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1827B27F262BF74800F64D48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1827B266262BF74400F64D48 /* MyHotels */;
+			targetProxy = 1827B27E262BF74800F64D48 /* PBXContainerItemProxy */;
+		};
+		1827B28A262BF74800F64D48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1827B266262BF74400F64D48 /* MyHotels */;
+			targetProxy = 1827B289262BF74800F64D48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1827B275262BF74800F64D48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1827B276262BF74800F64D48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1827B28F262BF74800F64D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1827B290262BF74800F64D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1827B292262BF74800F64D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyHotels/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhumesh.MyHotels;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1827B293262BF74800F64D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyHotels/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhumesh.MyHotels;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1827B295262BF74800F64D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyHotelsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhumesh.MyHotelsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyHotels.app/MyHotels";
+			};
+			name = Debug;
+		};
+		1827B296262BF74800F64D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyHotelsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhumesh.MyHotelsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyHotels.app/MyHotels";
+			};
+			name = Release;
+		};
+		1827B298262BF74800F64D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyHotelsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhumesh.MyHotelsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyHotels;
+			};
+			name = Debug;
+		};
+		1827B299262BF74800F64D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyHotelsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhumesh.MyHotelsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyHotels;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1827B262262BF74400F64D48 /* Build configuration list for PBXProject "MyHotels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1827B28F262BF74800F64D48 /* Debug */,
+				1827B290262BF74800F64D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1827B291262BF74800F64D48 /* Build configuration list for PBXNativeTarget "MyHotels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1827B292262BF74800F64D48 /* Debug */,
+				1827B293262BF74800F64D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1827B294262BF74800F64D48 /* Build configuration list for PBXNativeTarget "MyHotelsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1827B295262BF74800F64D48 /* Debug */,
+				1827B296262BF74800F64D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1827B297262BF74800F64D48 /* Build configuration list for PBXNativeTarget "MyHotelsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1827B298262BF74800F64D48 /* Debug */,
+				1827B299262BF74800F64D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1827B25F262BF74400F64D48 /* Project object */;
+}
